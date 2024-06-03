@@ -9,7 +9,7 @@ function updateTimer() {
     const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
     if (timeLeft < 0) {
-        document.getElementById('timer').innerHTML = "EXPIRED";
+        document.getElementById('timer').innerHTML = "Feliz aniversário amor";
         document.getElementById('redirectButton').style.display = 'block';
     } else {
         document.getElementById('timer').innerHTML = 
